@@ -1,0 +1,106 @@
+[Project]
+filename = Project1.dev
+name = Project1
+UnitCount = 3
+Type = 0
+Ver = 3
+ObjFiles = 
+Includes = D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2
+Libs = D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/lib
+Bins = 
+PrivateResource = Project1_private.rc
+ResourceIncludes = 
+MakeIncludes = 
+Compiler = 
+CppCompiler = 
+Linker = -lSDL2 -lSDL2main -lmingw32
+IsCpp = 0
+Icon = app.ico
+ExeOutput = 
+ObjectOutput = 
+LogOutput = 
+LogOutputEnabled = 0
+OverrideOutput = 0
+OverrideOutputName = 
+HostApplication = 
+UseCustomMakefile = 0
+CustomMakefile = 
+UsePrecompiledHeader = 0
+PrecompiledHeader = 
+CommandLine = 
+Folders = 
+IncludeVersionInfo = 0
+SupportXPThemes = 0
+CompilerSet = 3
+CompilerSetType = 1
+StaticLink = 0
+AddCharset = 1
+ExecEncoding = UTF-8
+Encoding = AUTO
+ModelType = 0
+ClassBrowserType = 0
+AllowParallelBuilding = false
+ParellelBuildingJobs = 0
+UseUTF8 = 0
+
+
+[Unit1]
+FileName = map.h
+CompileCpp = 0
+Folder = 头文件
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+DetectEncoding = 1
+
+
+[VersionInfo]
+Major = 1
+Minor = 0
+Release = 0
+Build = 0
+LanguageID = 1033
+CharsetID = 1252
+CompanyName = 
+FileVersion = 
+FileDescription = Developed using the Red Panda C++ IDE
+InternalName = 
+LegalCopyright = 
+LegalTrademarks = 
+OriginalFilename = 
+ProductName = 
+ProductVersion = 
+AutoIncBuildNr = 0
+SyncProduct = 1
+
+
+[Unit2]
+FileName = main.c
+CompileCpp = 0
+Folder = 源文件
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+DetectEncoding = 1
+
+
+[Unit3]
+FileName = type_length.h
+CompileCpp = 0
+Folder = 头文件
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+DetectEncoding = 1
+
+
+[CompilerSettings]
+cc_cmd_opt_debug_info = on
+cc_cmd_opt_use_pipe = on
+cc_cmd_opt_warning_all = on

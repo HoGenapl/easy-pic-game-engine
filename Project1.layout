@@ -1,0 +1,32 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 5,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/map.h",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 4
+    },
+    {
+        "caretX": 11,
+        "caretY": 21,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/main.c",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 11
+    },
+    {
+        "caretX": 1,
+        "caretY": 3,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/type_length.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
+    }
+]
