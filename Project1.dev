@@ -1,8 +1,8 @@
 [Project]
 filename = Project1.dev
 name = Project1
-UnitCount = 3
-Type = 0
+UnitCount = 5
+Type = 1
 Ver = 3
 ObjFiles = 
 Includes = D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2
@@ -77,6 +77,18 @@ SyncProduct = 1
 
 
 [Unit2]
+FileName = map1.txt
+CompileCpp = 0
+Folder = 其他文件
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+DetectEncoding = 1
+
+
+[Unit3]
 FileName = main.c
 CompileCpp = 0
 Folder = 源文件
@@ -88,8 +100,20 @@ BuildCmd =
 DetectEncoding = 1
 
 
-[Unit3]
+[Unit4]
 FileName = type_length.h
+CompileCpp = 0
+Folder = 头文件
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+DetectEncoding = 1
+
+
+[Unit5]
+FileName = string_plus.h
 CompileCpp = 0
 Folder = 头文件
 Compile = 0

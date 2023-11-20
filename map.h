@@ -13,6 +13,11 @@
 #include <stdlib.h>
 #endif
 
+#ifndef STRING_PLUS
+#define STRING_PLUS
+#include "string_plus.h"
+#endif
+
 #ifndef True
 #define True 1
 #endif
@@ -45,15 +50,26 @@ long duplicate_length(char *str,char c);
 extern char* f_part;
 int read_map(char* name)
 {
+	long s_l;	//两字符之间的长度
 	FILE* f = NULL;
+	char *tem_text = (char *)malloc(sizeof(char) * 2);	//存储fgets的字符串
+	long l_tem_text = 2;
+	*(tem_text + l_tem_text - 1) = '\n';
 	f = fopen(name,"r");
+
 	if(f == NULL)
+	{
+		perror("error:Fail to open file");
 		return -1;
+	}
 	while(f != NULL)
 	{
-		;
+		fgets_p(tem_text,&l_tem_text,f);
+		s_l = duplicate_length(tem_text,'!');
+		printf("%ld\n",s_l);
 	}
 	fclose(f);
+	free(tem_text);
 	return 0;
 }
 long duplicate_length(char *str,char c)
@@ -62,14 +78,16 @@ long duplicate_length(char *str,char c)
 	int t = 0;
 	while(*str != '\0')
 	{
-		length++;
+		if(t == 1)
+			length++;
 		if(*str == c)
 		{
 			t++;
 			length--;
 			if(t == 2)
-				break;	
+				return ++length;	
 		}
+		str++;
 	}
 	return length;
 }

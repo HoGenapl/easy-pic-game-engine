@@ -8,7 +8,7 @@ RES      = Project1_private.res
 OBJ      = main.o $(RES)
 LINKOBJ  = main.o $(RES)
 CLEANOBJ  =  main.o Project1_private.res Project1.exe
-LIBS     =  -L"D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/lib" -mwindows -lSDL2 -lSDL2main -lmingw32 -Wunused-but-set-variable
+LIBS     =  -L"D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/lib" -lSDL2 -lSDL2main -lmingw32
 INCS     =   -I"D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2"
 CXXINCS  =   -I"D:/program/c/SDL2/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2"
 BIN      = Project1.exe
@@ -26,7 +26,7 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main.o: main.c map.h
+main.o: main.c string_plus.h map.h
 	$(CC) -c main.c -o main.o $(CFLAGS) 
 
 Project1_private.res: Project1_private.rc 

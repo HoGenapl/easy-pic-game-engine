@@ -1,13 +1,23 @@
 [
     {
-        "caretX": 1,
-        "caretY": 5,
+        "caretX": 3,
+        "caretY": 62,
         "filename": "D:/program/c/SDL2/program/ln1/Project1/map.h",
-        "focused": true,
+        "focused": false,
         "isOpen": true,
         "leftChar": 1,
         "order": 1,
-        "topLine": 4
+        "topLine": 52
+    },
+    {
+        "caretX": 5,
+        "caretY": 2,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/map1.txt",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
     },
     {
         "caretX": 11,
@@ -24,9 +34,18 @@
         "caretY": 3,
         "filename": "D:/program/c/SDL2/program/ln1/Project1/type_length.h",
         "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 3,
+        "caretY": 14,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/string_plus.h",
+        "focused": false,
         "isOpen": true,
         "leftChar": 1,
-        "order": 2,
+        "order": 3,
         "topLine": 1
     }
 ]

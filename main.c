@@ -45,6 +45,12 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	int quit = 0;
 	SDL_Event evt;
 	
+	/*
+	  测试用
+	 */
+	read_map("map1.txt");
+	
+	
 	while (!quit) {
 		if (SDL_PollEvent(&evt)) {
 			if (evt.type == SDL_QUIT) {
