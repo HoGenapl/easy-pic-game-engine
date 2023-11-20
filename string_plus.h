@@ -9,28 +9,39 @@
 #include <stdlib.h>
 #endif
 
+
+#ifndef STRING
+#define STRING
+#include <string.h>
+#endif
+
 //每次分配多增加的长度
 #ifndef STRING_INCREMENT
 #define STRING_INCREMENT 100
 #endif
-int fgets_p(char* s,long* l, FILE* f,long increment);
+
+int fgets_p(char*,int, FILE*, int);
 
 
-int fgets_p(char* s,long* l, FILE* f,long increment=STRING_INCREMENT)
+int fgets_p(char* s,int l, FILE* f, int increment)
 {
-	fgets(s,*l,f);
-	if(s[*l - 1] != '\n')
+	fgets(s,l,f);
+	if(s[l - 1] != '\n')
 	{
-		*l = *l + increment;
-		//创建一个复制内容.
-		if (realloc(s,sizeof(char) * *l) == NULL)
+		//创建一个用于复制内容.
+		char *cp = (char *)(malloc(sizeof(char) * l));
+		memcpy(cp,s,l);
+		l = l + increment;
+		if (realloc(s,sizeof(char) * l) == NULL)
 		{
-			
 			perror("error:Fail to open file");
 			return -1;
 		}
-		s[*l - 1] = '\n';
-		fgets_p(s,l,f);
+		memcpy(s,cp,l - increment);
+		free(cp);
+		s[l - 1] = '\n';
+		fgets_p(s + l - increment - 1,increment,f,increment);
 	}
-	return 0;
+	
+	return l;
 }

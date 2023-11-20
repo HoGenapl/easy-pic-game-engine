@@ -1,33 +1,43 @@
 [
     {
-        "caretX": 3,
-        "caretY": 62,
-        "filename": "D:/program/c/SDL2/program/ln1/Project1/map.h",
-        "focused": false,
-        "isOpen": true,
-        "leftChar": 1,
-        "order": 1,
-        "topLine": 52
-    },
-    {
-        "caretX": 5,
-        "caretY": 2,
-        "filename": "D:/program/c/SDL2/program/ln1/Project1/map1.txt",
-        "focused": true,
-        "isOpen": true,
-        "leftChar": 1,
-        "order": 2,
-        "topLine": 1
-    },
-    {
-        "caretX": 11,
-        "caretY": 21,
+        "caretX": 1,
+        "caretY": 33,
         "filename": "D:/program/c/SDL2/program/ln1/Project1/main.c",
         "focused": false,
         "isOpen": true,
         "leftChar": 1,
         "order": 0,
-        "topLine": 11
+        "topLine": 28
+    },
+    {
+        "caretX": 1,
+        "caretY": 41,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/string_plus.h",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 32
+    },
+    {
+        "caretX": 20,
+        "caretY": 67,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/map.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 55
+    },
+    {
+        "caretX": 5,
+        "caretY": 2,
+        "filename": "D:/program/c/SDL2/program/ln1/Project1/map1.txt",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 3,
+        "topLine": 1
     },
     {
         "caretX": 1,
@@ -36,16 +46,6 @@
         "focused": false,
         "isOpen": false,
         "leftChar": 1,
-        "topLine": 1
-    },
-    {
-        "caretX": 3,
-        "caretY": 14,
-        "filename": "D:/program/c/SDL2/program/ln1/Project1/string_plus.h",
-        "focused": false,
-        "isOpen": true,
-        "leftChar": 1,
-        "order": 3,
         "topLine": 1
     }
 ]

@@ -53,7 +53,7 @@ int read_map(char* name)
 	long s_l;	//两字符之间的长度
 	FILE* f = NULL;
 	char *tem_text = (char *)malloc(sizeof(char) * 2);	//存储fgets的字符串
-	long l_tem_text = 2;
+	int l_tem_text = 2;
 	*(tem_text + l_tem_text - 1) = '\n';
 	f = fopen(name,"r");
 
@@ -64,7 +64,7 @@ int read_map(char* name)
 	}
 	while(f != NULL)
 	{
-		fgets_p(tem_text,&l_tem_text,f);
+		fgets_p(tem_text,l_tem_text,f,100);
 		s_l = duplicate_length(tem_text,'!');
 		printf("%ld\n",s_l);
 	}

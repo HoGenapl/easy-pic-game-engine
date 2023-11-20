@@ -26,7 +26,7 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main.o: main.c string_plus.h map.h
+main.o: main.c
 	$(CC) -c main.c -o main.o $(CFLAGS) 
 
 Project1_private.res: Project1_private.rc 

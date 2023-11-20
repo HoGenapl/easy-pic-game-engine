@@ -1,7 +1,15 @@
 {
     "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "string_plus.h",
+            "line": 40,
+            "timestamp": "1700491416343"
+        }
     ],
-    "timestamp": "1700400430559",
+    "timestamp": "1700491437987",
     "watchvars": [
     ]
 }
