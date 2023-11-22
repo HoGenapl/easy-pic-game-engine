@@ -1,0 +1,7 @@
+﻿  main.c
+D:\program\c\SDL2\program\ln1_vs\ConsoleApplication1\string_plus.h(35,20): warning C4028: 形参 1 与声明不同
+  LINK : 没有找到 D:\program\c\SDL2\program\ln1_vs\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe 或上一个增量链接没有生成它；正在执行完全链接
+  ConsoleApplication1.vcxproj -> D:\program\c\SDL2\program\ln1_vs\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  Microsoft (R) COFF/PE Editor Version 14.28.29335.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  

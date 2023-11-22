@@ -1,0 +1,2 @@
+D:\program\c\SDL2\program\ln1_vs\ConsoleApplication1\Debug\ConsoleApplication1.exe
+D:\program\c\SDL2\program\ln1_vs\ConsoleApplication1\Debug\ConsoleApplication1.pdb

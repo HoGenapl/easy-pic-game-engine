@@ -1,0 +1,8 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateWindow，函数 _WinMain@16 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyWindow，函数 _WinMain@16 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_PollEvent，函数 _WinMain@16 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_Init，函数 _WinMain@16 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_Quit，函数 _WinMain@16 中引用了该符号
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+lib\SDL2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\program\c\SDL2\program\ln1_vs\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1120: 6 个无法解析的外部命令
